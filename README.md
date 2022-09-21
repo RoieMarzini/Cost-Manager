@@ -1,5 +1,5 @@
 ﻿# MERN-Cost-Manager
- git clone - 
+ git clone - https://github.com/RoieMarzini/Cost-Manager.git
 
 MongoDB - Database
 Express - Server Framework
