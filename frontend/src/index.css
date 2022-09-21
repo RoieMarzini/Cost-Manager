@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url("https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: repeat;
+}
+
+.app {
+  min-height: 100vh;
+}
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  overflow: visible;
+  min-height: 600px;
+  border: 2px solid steelblue;
+  padding: 20px 60px;
+}
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 600px;
+}
+.report-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.select {
+  width: 200px;
+  margin: 10px auto;
+  color: rgb(0, 0, 0);
+  font-size: large;
+  overflow: visible;
+}
+
+.bg-white {
+  background: white;
+  border-radius: 4px;
+}
+
+img {
+  height: 400px;
+  padding: 20;
+  margin: 10;
+}
+
+.add-form {
+  margin-bottom: 40px;
+  width: 75%;
+  margin: 40px auto;
+}
+
+.z-index {
+  z-index: 5;
+  margin-top: 0;
+}
+.z-index-secondary {
+  z-index: 4;
+  margin-top: 0;
+}
+
+.form-control {
+  margin: 20px 0;
+  color: rgb(0, 0, 0);
+  width: 100%;
+  font-size: large;
+  overflow: visible;
+}
+
+.form-control input,
+.form-control textarea {
+  width: 120%;
+  height: 40px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: large;
+}
+
+.navbar {
+  margin: 0;
+  background: #12a7f22b;
+  height: 100%;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 100px;
+  height: auto;
+  z-index: 5;
+  border-radius: 0 0 50px 50px;
+}
+
+.navbar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.navbar a.active {
+  background-color: steelblue;
+  color: white;
+}
+
+.navbar a:hover:not(.active) {
+  background-color: #868580;
+  color: white;
+}
+
+@media all and (max-width: 650px) {
+  .navbar {
+    padding: 0 5px;
+  }
+}
