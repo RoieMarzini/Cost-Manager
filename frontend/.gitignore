@@ -1,4 +1,7 @@
-
+/node_modules
+npm-debug.log
+.DS_Store
+.env
 # Created by https://www.toptal.com/developers/gitignore/api/react,vs,node
 # Edit at https://www.toptal.com/developers/gitignore?templates=react,vs,node
 
